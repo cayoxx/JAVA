@@ -19,15 +19,21 @@ public class CarlosMiguel {
 		
 		if (A > B&&A>C) {
 			X = A;
+			System.out.println("O maior número é " + X);
 		}
 		else if (B > A&&B>C) {
 			X = B;
+			System.out.println("O maior número é " + X);
+		}
+		else if (A==B&&A==C) {
+			X = A;
+			System.out.println("Os 3 números são iguais, o valor é " + X);
 		}
 		else {
 			X = C;
+			System.out.println("O maior número é " + X);
 		}
 		
-		System.out.println("O maior número é " + X);
 
 	}
 
