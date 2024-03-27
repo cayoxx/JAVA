@@ -1,0 +1,34 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class CarlosMiguel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner ler = new Scanner(System.in);
+		int X;
+		
+		System.out.println("Informe um número:");
+		int A = ler.nextInt();
+		System.out.println("Informe um número:");
+		int B = ler.nextInt();
+		System.out.println("Informe um número:");
+		int C = ler.nextInt();
+		
+		if (A > B&&A>C) {
+			X = A;
+		}
+		else if (B > A&&B>C) {
+			X = B;
+		}
+		else {
+			X = C;
+		}
+		
+		System.out.println("O maior número é " + X);
+
+	}
+
+}
