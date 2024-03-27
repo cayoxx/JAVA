@@ -8,7 +8,7 @@ public class CarlosMiguel {
 		// TODO Auto-generated method stub
 		
 		Scanner ler = new Scanner(System.in);
-		int X;
+		int X,Y;
 		
 		System.out.println("Informe um número:");
 		int A = ler.nextInt();
@@ -33,7 +33,21 @@ public class CarlosMiguel {
 			X = C;
 			System.out.println("O maior número é " + X);
 		}
-		
+		if (A<B&&A<C) {
+			Y = A;
+			System.out.println("O menor número é " + Y);
+		}
+		else if (B<A&&B<C) {
+			Y = B;
+			System.out.println("O menor número é " + Y);
+		}
+		else if (A==B&&A==C) {
+			System.out.println("Não é menor entre eles.");
+		}
+		else {
+			Y = C;
+			System.out.println("O menor número é " + Y);
+		}
 
 	}
 
